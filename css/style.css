@@ -1,0 +1,548 @@
+ /*---------------------------------------------
+ --------------------------------------------*/
+
+
+
+
+ /*---------------------------------------------
+ 
+                    TABLET
+ 
+ --------------------------------------------*/
+/* 
+@media screen and (max-width:768px){ */
+
+
+
+
+ /*---------------------------------------------
+                    MOBILE
+ --------------------------------------------*/
+
+@media screen and (max-width:480px){
+
+footer{
+    width: 50%;
+}
+
+}
+
+
+
+
+
+
+ /*----------------------------------------------
+ --------------------------------------------*/
+
+ @media screen and (max-width:1366px){
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+}
+
+body {
+    background: black;
+}
+
+header, main, footer {
+    width: 1200px;
+    margin: auto;
+}
+
+header nav {
+    position: relative;
+    background: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+header nav ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffd900;
+}
+
+
+header div {
+    margin-top: 0;
+
+
+}
+
+header div h1 {
+     background: url(../img/fondoencabezado.jpg);
+     width: 1200px;
+     height: 729px;
+     padding-top: 200px;
+     text-align: center;
+     font-size: 150px;
+     color: red;
+     text-transform: uppercase;
+     border: 1px solid white;
+
+}
+
+header div p {
+     color: white;
+     margin-top:-360px;
+     text-align: center;
+     font-style: italic;
+     font-size: 24px;
+     font-weight: bold;
+ }
+
+ .london-image{
+    /* border: 5px solid green; */
+    /* text-align: left; */
+    margin-right: 630px;;
+    display: flex;
+    margin-top: 100px;
+}   
+
+.london101{
+    margin-top: 400px;
+}
+
+.london101 h2{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.london101 p{
+    font-size: 24px;
+    padding: 29px;
+    /* border: 1px solid green; */
+    margin-left: 600px;
+    margin-top: -497px;
+    background-color: rgb(0, 157, 255);
+    border: 1px solid white;
+}
+
+h2, h3, p {
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.informacion h2, p {
+     text-align: center;
+}
+
+.clima {
+     margin-top: 20px;
+}
+ 
+.clima h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+ 
+.clima div { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.acento .acento-img {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.acento .acento-img h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 130px;
+    text-transform: uppercase;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+.video-home h2{
+    color: rgb(0, 136, 255);
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: -150px;
+}
+
+.video-home iframe {
+    width: 1200px;
+    height: 601px;
+    border: none;
+    margin-bottom: -800px;
+}
+
+ /*----------------------------------------------
+  
+                        EVENTOS
+ 
+ --------------------------------------------*/
+
+.main-eventos{
+    text-align: center; 
+    margin-bottom: -800px;
+    margin-top: 100px;
+}
+
+ .eventos {
+    text-align: center;
+    font-weight: bold;
+}
+.eventos div {
+    display: inline-block;
+    margin: 30px;
+    width: 417px;
+    height: 246px;
+}
+
+.eventos div figure figcaption {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 10px;
+}
+ /* FIN EVENTOS */
+
+ /* ATRACCIONES */
+.atracciones {
+    margin-top: 20px;
+}
+
+.atracciones h2 {
+    font-size: 60px;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.atracciones h3{
+    font-size: 47px;
+    padding: 20px;
+}
+
+.atracciones .hp-making #hph{
+    font-size: 38px;
+}
+
+.atracciones p{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* FIN ATRACCIONES */
+
+  /*-----------------------------------------------
+  
+                        LOCACIONES 
+  
+  ------------------------------------------------*/
+
+.main-locaciones{
+    text-align: center;
+    /* padding: 22px; */
+}
+
+.main-locaciones h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* border: 1px solid green; */
+}
+
+.main-locaciones p{
+    margin-bottom: 25px;
+}
+
+.main-locaciones .lo-principal h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.lo-principal p{
+    font-size: 26px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.british-museum h2{
+    font-size: 110px;
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+}
+
+.british-museum h2 p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.london-eye h2{
+    font-size: 110px;
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+}
+
+.london-eye h2 p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.national-gallery h2{
+    font-size: 110px;
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+}
+
+.national-gallery h2 p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.palacio-de-buckingham h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+}
+
+.palacio-de-buckingham h2 p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.torre-de-londres h2{
+    font-size: 110px;
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+}
+
+.torre-de-londres h2 p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.abadia-de-westminster h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+}
+
+.abadia-de-westminster h2 p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.museo-historia-natural h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+}
+
+.museo-historia-natural h2 p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.palacioybb h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+}
+
+.palacioybb h2 p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.video-locaciones h2{
+    color: rgb(0, 136, 255);
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.video-locaciones iframe {
+      width: 1200px;
+      height: 601px;
+      border: none;
+      margin: 15px 0 15px 0;
+}
+
+.main-locaciones{
+    text-align: center;
+    margin-bottom: -800px;
+}
+  /* FIN LOCACIONES */
+
+/*----------------------------------------------
+
+                    CONTACTO 
+
+----------------------------------------------*/
+
+.contacto {
+    margin-top: 20px;
+}
+
+.contacto h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.contacto form {
+    background: gray;
+    /* margin: auto; */
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* width: 800px; */
+}
+
+.contacto label{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* .contacto .sexo #sex{
+    border: 1px solid green;
+} */
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #004D6C;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sexo{
+    margin-top: 8px;
+}
+
+.mensaje{
+    margin-top: 8px;
+}
+
+.quiero{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#socialmedia h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#socialmedia ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+    margin-bottom: -850px;
+} 
+ 
+/* label {
+    display: inline-block;
+} */
+/* FIN CONTACTO */
+
+footer {
+    background: white;
+    margin-top: 900px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+footer ul li {
+    list-style: none;
+
+}
+
+footer ul li span {
+    font-weight: bold;
+}
+
+.border {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+footer p {
+    color: #000;
+}
+
+/*----------------------------------------------
+
+                    GRACIAS
+                    (TOTALES)
+
+----------------------------------------------*/
+
+.gracias h2{
+    text-transform: uppercase;
+}
